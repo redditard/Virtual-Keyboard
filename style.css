@@ -29,3 +29,19 @@ body {
     overflow: hidden;
     order: 2;
 }
+
+.row {
+    display: flex;
+}
+
+.keys {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    transition: .2s;
+    z-index: 5;
+}
